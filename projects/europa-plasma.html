@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Large-Scale Plasma Simulation Data Analysis — Joshua Ulloa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">JOSHUA ULLOA</div>
+    <div class="links">
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap" style="padding-top: 32px;">
+  <a href="../index.html#projects" class="back-link">&larr; Back to all projects</a>
+</div>
+
+<header class="detail-header">
+  <div class="wrap">
+    <h1>Large-Scale Plasma Simulation Data Analysis</h1>
+    <p class="summary">Processed and analyzed 3D hybrid plasma simulation datasets exceeding 200 million data points to characterize Europa's magnetosphere interactions and magnetic field perturbations, in support of an ongoing publication.</p>
+    <div class="detail-actions">
+      <!-- TODO: once you have a GitHub repo for this project, uncomment below
+           and replace # with the real repo URL -->
+      <!-- <a class="btn primary" href="#" target="_blank" rel="noopener">View code on GitHub</a> -->
+      <a class="btn" href="../index.html#projects">&larr; All projects</a>
+    </div>
+  </div>
+</header>
+
+<section class="detail-section">
+  <div class="wrap">
+    <h2>Overview</h2>
+    <div class="detail-body">
+      <p>
+        This project worked with 3D hybrid plasma simulation datasets describing the interaction between
+        Europa and Jupiter's surrounding magnetospheric plasma, in support of research into Europa's
+        induced magnetic field and what it implies about a subsurface ocean. A single simulation cube
+        contained on the order of 200 million spatial grid points, too large to treat casually as an
+        ordinary in-memory array.
+      </p>
+      <p>
+        I built memory-optimized Python workflows, chunked processing and memory-mapped arrays, to make
+        datasets that size tractable, then developed automated masking, thresholding, and feature-extraction
+        pipelines to reduce raw simulation output into scientifically meaningful subsets. The results are
+        supporting an ongoing publication.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="detail-section">
+  <div class="wrap">
+    <h2>Results</h2>
+    <!--
+      TODO: Replace this placeholder with real images once you have them.
+      1. Upload image files to an /images folder in this repo.
+      2. Copy a .gallery-item block, point src at your image, write a caption.
+    -->
+    <div class="gallery">
+      <div class="gallery-placeholder">
+        <strong>Add your result images here.</strong><br>
+        A good candidate here: a magnetic field slice visualization, or a before/after showing raw data reduced to the extracted feature.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="detail-section">
+  <div class="wrap">
+    <h2>Code Highlight</h2>
+    <!-- TODO: paste a short, representative snippet of your actual code here -->
+    <div class="code-block"><span class="comment"># e.g. the masking/thresholding pipeline, or the chunked/memory-mapped data loading approach</span></div>
+  </div>
+</section>
+
+</body>
+</html>
